@@ -5,8 +5,8 @@ https://kubesec.io
 Check curriculum from here: \
 https://github.com/cncf/curriculum
 
-
-Certified Kubernetes Security Specialist (CKS) Exam
+Certified Kubernetes Security Specialist (CKS) Exam \
+https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
 
 Coupon Code | Discount | Price
 ---|---|---
