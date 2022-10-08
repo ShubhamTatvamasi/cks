@@ -16,6 +16,10 @@ SCOFFER15 | 15% | $335.75
 
 ---
 
+Update VIM config:
+```bash
+echo "set ts=2 sw=2 sts=2 expandtab" > ~/.vimrc
+```
 
 https://kubesec.io
 
