@@ -21,6 +21,8 @@ Update VIM config:
 echo "set ts=2 sw=2 sts=2 expandtab" > ~/.vimrc
 ```
 
+https://downloads.cisecurity.org/#/
+
 https://kubesec.io
 
 
