@@ -6,6 +6,8 @@ https://github.com/cncf/curriculum
 Certified Kubernetes Security Specialist (CKS) Exam \
 https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
 
+https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist
+
 Coupon Code | Discount | Price
 ---|---|---
 . | 0% | $395.00
