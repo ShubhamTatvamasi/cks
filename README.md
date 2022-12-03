@@ -1,6 +1,6 @@
 # cks
 
-### VIM RC
+### VIM Setup
 
 Open `vimrc` file:
 ```bash
