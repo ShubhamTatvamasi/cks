@@ -1,5 +1,11 @@
 # cks
 
+https://downloads.cisecurity.org/#/
+
+https://kubesec.io
+
+---
+
 ### VIM Setup
 
 Open `vimrc` file:
@@ -14,9 +20,11 @@ set tabstop=2
 set shiftwidth=2
 ```
 
-https://downloads.cisecurity.org/#/
+---
 
-https://kubesec.io
+### containerd
 
-
-
+containerd cli tool:
+```bash
+crictl ps
+```
