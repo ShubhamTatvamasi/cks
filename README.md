@@ -28,3 +28,14 @@ containerd cli tool:
 ```bash
 crictl ps
 ```
+
+---
+
+### ETCD
+
+Flag | Protocol | IP | Port
+---|---|---|---
+--etcd-servers= | https:// | 127.0.0.1: | 2379
+
+
+
