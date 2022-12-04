@@ -37,5 +37,16 @@ Flag | Protocol | IP | Port
 ---|---|---|---
 --etcd-servers= | https:// | 127.0.0.1: | 2379
 
+---
+
+### AppArmor
+
+Check AppArmor status:
+```bash
+apparmor_status
+```
+
+
+
 
 
