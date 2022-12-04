@@ -1,8 +1,8 @@
 # cks
 
-https://downloads.cisecurity.org/#/
-
-https://kubesec.io
+https://downloads.cisecurity.org \
+https://kubesec.io \
+https://editor.cilium.io
 
 ---
 
