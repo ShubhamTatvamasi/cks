@@ -12,6 +12,12 @@ kubectl run mysql-app --image=mysql --expose --port=3306 --env="MYSQL_ROOT_PASSW
 kubectl run mysql-db --image=mysql --expose --port=3306 --env="MYSQL_ROOT_PASSWORD=password" -n db
 ```
 
+From `app` namespace connect to mysql in `db` namespace:
+```bash
+kubectl exec -it -n app mysql-app -- \
+  mysql -h mysql-db.db.svc.cluster.local -ppassword
+```
+
 ---
 
 Cleanup:
