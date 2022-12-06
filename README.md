@@ -46,7 +46,11 @@ Check AppArmor status:
 apparmor_status
 ```
 
+---
 
+### Audit
+
+Create a folder for storing logs. Add `volumeMounts` and `volumes` in the kube-apiserver config file.
 
 
 
