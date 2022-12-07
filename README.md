@@ -52,5 +52,19 @@ apparmor_status
 
 Create a folder for storing logs. Add `volumeMounts` and `volumes` in the kube-apiserver config file.
 
+---
+
+### kube-bench
+
+see all:
+```bash
+kube-bench run --targets master
+```
+
+or just see the one:
+```bash
+kube-bench run --targets master --check 1.2.20
+```
+
 
 
