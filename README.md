@@ -4,6 +4,8 @@ https://downloads.cisecurity.org \
 https://kubesec.io \
 https://editor.cilium.io
 
+https://github.com/ggnanasekaran77/cks-exam-tips
+
 ---
 
 ### VIM Setup
