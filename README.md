@@ -10,22 +10,6 @@ https://github.com/ggnanasekaran77/cks-exam-tips
 
 ---
 
-### VIM Setup
-
-Open `vimrc` file:
-```bash
-vim ~/.vimrc
-```
-
-Update the vim config:
-```vim
-set expandtab
-set tabstop=2
-set shiftwidth=2
-```
-
----
-
 ### containerd
 
 containerd cli tool:
@@ -70,5 +54,16 @@ or just see the one:
 kube-bench run --targets master --check 1.2.20
 ```
 
+---
 
+### RuntimeClass
+
+The handler for the gVisor RuntimeClass is `runsc`:
+```yaml
+apiVersion: node.k8s.io/v1
+kind: RuntimeClass
+metadata:
+  name: gvisor 
+handler: runsc
+```
 
