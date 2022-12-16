@@ -8,6 +8,11 @@ https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist
 
 https://github.com/ggnanasekaran77/cks-exam-tips
 
+
+#### Tips:
+
+- Always make sure that volume is mounted when you do any chnages in the kubeAPI server.
+
 ---
 
 ### containerd
