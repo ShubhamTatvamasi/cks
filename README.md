@@ -72,3 +72,19 @@ metadata:
 handler: runsc
 ```
 
+---
+
+### RBAC
+
+Create role:
+```bash
+kubectl -n applications create role smoke --verb=create,delete --resource=pods,deployments,statefulsets
+```
+
+Create rolebinding
+```bash
+kubectl -n applications create rolebinding smoke --role=smoke --user=smoke
+```
+
+
+
