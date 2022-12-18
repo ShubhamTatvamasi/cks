@@ -86,5 +86,13 @@ Create rolebinding
 kubectl -n applications create rolebinding smoke --role=smoke --user=smoke
 ```
 
+Create view only roles for user `smoke`:
+```bash
+kubectl -n applications create rolebinding smoke-view --clusterrole view --user smoke
+kubectl -n default create rolebinding smoke-view --clusterrole view --user smoke
+kubectl -n kube-node-lease create rolebinding smoke-view --clusterrole view --user smoke
+kubectl -n kube-public create rolebinding smoke-view --clusterrole view --user smoke
+```
+
 
 
