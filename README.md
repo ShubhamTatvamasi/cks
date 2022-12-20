@@ -4,6 +4,8 @@ https://downloads.cisecurity.org \
 https://kubesec.io \
 https://editor.cilium.io
 
+https://github.com/moabukar/CKS-Exercises-Certified-Kubernetes-Security-Specialist
+
 https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist
 
 https://github.com/ggnanasekaran77/cks-exam-tips
