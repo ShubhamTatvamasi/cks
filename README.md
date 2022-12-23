@@ -19,8 +19,8 @@ https://github.com/ggnanasekaran77/cks-exam-tips
 
 setup your environment:
 ```bash
-export do="--dry-run=client -o yaml"
-export now="--force --grace-period 0"
+export do="--dry-run=client -o yaml"     # k create deploy nginx --image=nginx $do
+export now="--force --grace-period 0"    # k delete pod x $now
 ```
 
 ### containerd
