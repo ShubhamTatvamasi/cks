@@ -17,6 +17,12 @@ https://github.com/ggnanasekaran77/cks-exam-tips
 
 ---
 
+setup your environment:
+```bash
+export do="--dry-run=client -o yaml"
+export now="--force --grace-period 0"
+```
+
 ### containerd
 
 containerd cli tool:
