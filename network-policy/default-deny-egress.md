@@ -15,7 +15,7 @@ Create a netshoot pod:
 kubectl -n testing run netshoot --image nicolaka/netshoot --command sleep infinity
 ```
 
-Check if pod is in the running state:
+Check if pod is ready:
 ```bash
 kubectl -n testing get po netshoot
 ```
