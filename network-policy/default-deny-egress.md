@@ -39,5 +39,12 @@ spec:
 EOF
 ```
 
+---
+
+### Clenaup
+
+```bash
+minikube delete
+```
 
 
