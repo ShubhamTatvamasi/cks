@@ -41,7 +41,7 @@ EOF
 
 ---
 
-### Clenaup
+### Cleanup
 
 ```bash
 minikube delete
