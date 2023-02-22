@@ -15,3 +15,24 @@ Create a netshoot pod:
 kubectl -n testing run netshoot --image nicolaka/netshoot --command sleep infinity
 ```
 
+Test your egress network:
+```bash
+kubectl -n testing exec -it netshoot -- ping 8.8.8.8
+```
+
+Apply the `default-deny-egress` policy and test again: 
+```yaml
+kubectl apply -f - << EOF
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-egress
+  namespace: testing
+spec:
+  policyTypes:
+  - Egress
+EOF
+```
+
+
+
