@@ -10,8 +10,8 @@ Create a `testing` namespace:
 kubectl create ns testing
 ```
 
-Create a ubuntu pod:
+Create a netshoot pod:
 ```bash
-kubectl -n testing run ubuntu --image ubuntu --command sleep infinity
+kubectl -n testing run netshoot --image nicolaka/netshoot --command sleep infinity
 ```
 
