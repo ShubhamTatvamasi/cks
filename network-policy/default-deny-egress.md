@@ -15,6 +15,11 @@ Create a netshoot pod:
 kubectl -n testing run netshoot --image nicolaka/netshoot --command sleep infinity
 ```
 
+Check if pod is in the running state:
+```bash
+kubectl -n testing get po netshoot
+```
+
 Test your egress network:
 ```bash
 kubectl -n testing exec -it netshoot -- ping 8.8.8.8
