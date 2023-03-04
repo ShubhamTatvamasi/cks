@@ -1,3 +1,7 @@
+![Certified Kubernetes Security Specialist (CKS)](./certificate.jpg "Certified Kubernetes Security Specialist (CKS)")
+
+---
+
 # cks
 
 https://downloads.cisecurity.org \
